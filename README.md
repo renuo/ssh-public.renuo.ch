@@ -1,9 +1,25 @@
-ssh-public.renuo.ch
-===================
+# SSH public keys of Renuo employees
 
-Renuo public keys
+## New co-worker
+
+Generate an SSH key
 
 ```sh
-# Install a new public key
-ssh-copy-id user@new-host.com
+ssh-keygen -t ed25519 -C "<your name>@renuo.ch"
+```
+
+and then add the **public** key to this repo
+[via PR](https://github.com/renuo/ssh-public.renuo.ch/new/main).
+
+## Server operator
+
+Install a new key onto a server by copying some of the Renuo public keys
+into `~/.ssh/authorized_keys`.
+
+## Tip of the day
+
+Enable login via SSH key on a remote machine (password login needed first)
+
+```sh
+ssh-copy-id <user>@<host>
 ```
