@@ -12,7 +12,7 @@ and then add the **public** key to this repo
 [via PR](https://github.com/renuo/ssh-public.renuo.ch/new/main).
 
 _You can find more information about configuring your SSH agent
-[on Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent)_
+[on Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent)._
 
 ## Server operator
 
