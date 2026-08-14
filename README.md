@@ -13,16 +13,3 @@ and then add the **public** key to this repo
 
 _You can find more information about configuring your SSH agent
 [on Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent)._
-
-## Server operator
-
-Install a new key onto a server by copying some of the Renuo public keys
-into `~/.ssh/authorized_keys`.
-
-## Tip of the day
-
-Enable login via SSH key on a remote machine (password login needed first)
-
-```sh
-ssh-copy-id <user>@<host>
-```
